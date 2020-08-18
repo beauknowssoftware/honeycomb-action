@@ -1,5 +1,5 @@
-name: Hello World
-description: Greet someone and record the time
+name: Honeycomb Create Marker
+description: Create a Marker in Honeycomb
 inputs:
   X-Honeycomb-Team:
     description: The Team API Key for authentication
