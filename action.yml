@@ -1,0 +1,24 @@
+name: Hello World
+description: Greet someone and record the time
+inputs:
+  X-Honeycomb-Team:
+    description: The Team API Key for authentication
+    required: true
+  dataset:
+    description: The name of the dataset to create the marker in
+    required: true
+  type:
+    description: The type of marker to create
+    required: true
+  message:
+    description: The message to attach to the marker
+    required: true
+  url:
+    description: The target for the marker
+    required: false
+outputs:
+  markerId:
+    description: The ID of the new marker
+runs:
+  using: node12
+  main: index.js

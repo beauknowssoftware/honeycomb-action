@@ -1,0 +1,21 @@
+{
+  "name": "honeycomb-create-marker",
+  "version": "0.1.0",
+  "description": "This action creates a Marker in Honeycomb",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beauknowssoftware/honeycomb-create-marker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beauknowssoftware/honeycomb-create-marker/issues"
+  },
+  "homepage": "https://github.com/beauknowssoftware/honeycomb-create-marker#readme"
+}
