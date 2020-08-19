@@ -28,7 +28,7 @@
  ## Example usage
  
  ```yaml
- uses: beauknowssoftware/honeycomb-create-marker@v0.1.0
+ uses: beauknowssoftware/honeycomb-create-marker@v0.1.2
  with:
    X-Honeycomb-Team: my-api-key
    dataset: my-dataset
